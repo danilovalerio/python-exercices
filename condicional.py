@@ -1,19 +1,14 @@
-x = 10
-y = 5
-z = 10
+x = 1
+y = 2
 
-if x > y:
+if x == y:
+    print("Números iguais")
+elif x > y:
     print("X é maior que Y")
+elif x < y:
+    print("X é menor que Y")
 else:
-    print("X é NÃO maior que Y")
-
-if y > z:
-    print("Y é maior que Z") 
-else:
-    print("Y é MENOR que Z") 
-
-if z == x:
-    print("Z é igual a X")
+    print("Números diferentes")
 
 
 
